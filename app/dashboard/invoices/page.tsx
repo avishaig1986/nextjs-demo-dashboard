@@ -1,3 +1,9 @@
 export default function Page() {
-  return <p>Invoices Page</p>;
+  return <p className="h1">Invoices Page</p>;
+  /*
+  return <button type="button" 
+                 className="btn btn-danger">
+                 Danger
+         </button>
+         */
 }

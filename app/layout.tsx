@@ -1,5 +1,15 @@
+
+
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+
+/*
+import 'bootstrap/dist/css/bootstrap.css';
+
+if (typeof window !== "undefined") {
+  require("bootstrap/dist/js/bootstrap");
+}
+*/
 
 export default function RootLayout({
   children,
@@ -12,3 +22,4 @@ export default function RootLayout({
     </html>
   );
 }
+
